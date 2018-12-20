@@ -19,10 +19,10 @@ class Header extends Component {
                         <div className="col-lg-6 hide-for-lg-down">
                                 <nav>
                                     <ul id="menu-main" className="navbar-nav mr-auto mt-2 mt-lg-0 ">
-                                        <li  className="nav-item "><NavLink to='/'>Home</NavLink></li>
-                                        <li  className="nav-item "><NavLink to='/about'>About Us</NavLink></li>
-                                        <li  className="nav-item "><NavLink to='/agencies'>Agencies</NavLink></li>
-                                        <li  className="nav-item "><NavLink to='/contactUs'>Contact Us</NavLink></li>
+                                        <li  className="nav-item "><NavLink to='/' exact activeClassName="active">Home</NavLink></li>
+                                        <li  className="nav-item "><NavLink to='/about' activeClassName="active">About Us</NavLink></li>
+                                        <li  className="nav-item "><NavLink to='/agencies' activeClassName="active">Agencies</NavLink></li>
+                                        <li  className="nav-item "><NavLink to='/contactUs' activeClassName="active">Contact Us</NavLink></li>
                                     </ul>
                                     
                                 </nav>
