@@ -6,8 +6,10 @@ class ImageSlider extends Component {
 render() {
     const settings = {
         dots: true,
-        infinite: true,
+        infinite: false,
+        autoplay: true,
         arrows: false,
+        autoplaySpeed : 3000,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1
