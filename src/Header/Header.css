@@ -56,6 +56,7 @@ header.header nav ul li a {
     color: #000;
     letter-spacing: 2.5px;
     position: relative;
+    text-decoration: none !important;
 }
 header.header nav ul li a.active {
     color: #0057ff;
