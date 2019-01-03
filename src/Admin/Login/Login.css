@@ -1,0 +1,83 @@
+.webpage {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+
+}
+
+.loginContainer {
+
+    width: 450px;
+    height: 500px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+form.LoginForm {
+    width: 100%;
+    position: relative;
+    padding: 160px 55px 0 55px;
+}
+
+span.form-title {
+
+    font-family: JosefinSans-Bold;
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0062cc;
+    padding-top: 50px;
+    padding-bottom: 39px;
+}
+
+.form-group {
+    padding: 0 10px 10px;
+}
+
+
+.submitButton {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #0062cc;
+    border-radius: 25px;
+    font-family: Ubuntu-Bold;
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.form-group.userName {
+    margin-top: 35px;
+}
+
+.form-group.submit {
+    margin-top: 50px;
+}

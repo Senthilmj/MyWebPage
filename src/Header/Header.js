@@ -7,6 +7,7 @@ import './Header.css';
 class Header extends Component {
 
     render() {
+        if (window.location.pathname === '/admin') return <div></div>;
         return (
             <header className="header">
                 <div className="headerContainer">
