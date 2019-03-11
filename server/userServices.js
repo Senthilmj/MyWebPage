@@ -23,7 +23,7 @@ exports.login = function (req, res) {
                 error: 'password is wrong'
             });
         } else {
-            res.json({
+            res.status(200).json({
                 success: true
             });
         }
