@@ -1,4 +1,4 @@
-.webpage {
+.Login {
     width: 100%;
     min-height: 100vh;
     display: -webkit-box;
@@ -14,7 +14,7 @@
 
 }
 
-.loginContainer {
+.LoginContainer {
 
     width: 450px;
     height: 500px;
