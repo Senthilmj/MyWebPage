@@ -14,7 +14,7 @@ class Header extends Component {
                     <div className="row">
                         <div className="col-xl-3 col-6">
                             <a href="/" className="logo">
-                                <img src="/images/site_logo.logo" alt="logo img"></img>
+                                <img src="/images/logo.png" alt="logo img"></img>
                             </a>
                         </div>
                         <div className="col-lg-6 hide-for-lg-down">
